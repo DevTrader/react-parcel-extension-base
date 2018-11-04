@@ -1,0 +1,12 @@
+{
+	"name": "Parcel Extension Test",
+	"manifest_version": 2,
+	"version": "0.0.1",
+	"description": "Does nothing",
+	 "permissions": ["contextMenus", "tabs", "activeTab"],
+	 "web_accessible_resources" : ["*.html"],
+	 "browser_action": {
+		  "default_popup": "index.html"
+	  }
+  }
+  
